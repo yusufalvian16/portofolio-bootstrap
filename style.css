@@ -1,0 +1,164 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*________________________________________________________________________________*/
+/*style*/
+.container{
+	font-family: 'Ubuntu', sans-serif;
+	width: 960px;
+	margin: auto;
+	background-color: white;
+}
+body {
+	background-image: url(img/bg.jpeg);
+	font: 18px/20px;
+	background-color:blanchedalmond ;
+}
+
+.header{
+	padding:20px;
+	padding-bottom: 15px;
+}
+.container .header h1 {
+	font-weight: bold;
+	font-size: 30px;
+}
+.header ul li{
+
+	margin: 20px 0;
+	margin-right: 5px;
+	display: inline-block;
+}
+.header ul a{
+
+	text-decoration: none;
+	color: black;
+	opacity: 80%;
+	padding: 4px;
+
+}
+.header a:hover {
+	border-radius:10% ;
+	background-color: #7F5D5D;
+	color: whitesmoke;
+}
+.hero {
+	height: 400px;
+	background-image: url(img/a.png);
+	background-size: cover;
+	background-position: 0 -85px;
+	border-top: 5px solid lightskyblue;
+}
+.conten{
+	padding: 20px;
+}
+.conten p a{
+	text-decoration: none;
+	color: #695252;}
+
+.conten h2{
+	font-size: 25px;
+}
+.conten p{
+	font-size: 14px;
+}
+
+.main {
+	background-color: #F0D9D9;
+	float: left;
+	border-radius:2% ;
+	box-sizing: border-box;
+	width: 600px;
+	padding: 20px;
+}
+.main p{
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.sidebar {
+	background-color: #F0D9D9;
+	box-sizing: border-box;
+	padding: 20px;
+	border-radius: 5%;
+	width: 300px;
+	float: right;
+}
+.sidebar img{
+ padding-right: 10px;
+	float: left;
+}
+.sidebar p{
+	font-size:14px ;
+	text-align: justify;
+}
+.sidebar h3{
+	
+}
+.end {
+	height:50px;
+	background-color: #502424;
+}
+.end p {
+	line-height: 50px;
+	font-size: 14px;
+	color: whitesmoke;
+	text-align: center;
+}
+/*________________________________________________________________________________*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
